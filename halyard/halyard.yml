@@ -12,8 +12,8 @@ spec:
   capacity:
     storage: 100Mi
   nfs: 
-    server: 10.100.99.63
-    path: /var/nfs/k8s/halyard
+    server: 172.16.1.218
+    path: /home/liwei/NFSshare
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim

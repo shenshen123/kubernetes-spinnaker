@@ -10,8 +10,8 @@ spec:
   capacity:
     storage: 25Gi
   nfs: 
-    server: <NFS_IP_ADDRESS>
-    path: /var/nfs/k8s/spinnaker
+    server: 172.16.1.218
+    path: /home/liwei/NFSshare
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
